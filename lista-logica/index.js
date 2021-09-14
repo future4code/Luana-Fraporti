@@ -78,17 +78,17 @@
 // const bissextos4 = Number(prompt("todos anos os multiplos de 4"))
 // const nãoBissextos = Number(prompt("todos os demais anos"))
 
-// console.log(bissextos400>=bissextos4)
-// console.log (bissextos400<=bissextos4)
+// console.log(bissextos400 < 400 && bissextos4 >4 )
+// console.log (bissextos4 <4 && bissextos4 >100)
 // console.log(bissextos400===nãoBissextos)
 
 // EXERCICIO 12 rever
 
-// const Idade = prompt("Você tem mais de 18 anos?")
-// const ensinoMedio = prompt("você tem o ensimo medio completo?")
+// const idade = prompt("Você tem mais de 18 anos?")
+// const ensinoMedio = prompt("Você tem o ensimo medio completo?")
 // const horario = prompt("Você possui disponibilidade exclusiva durante os horários do curso?")
 
-// console.log(2021>=1991)
+// console.log()
 // console.log(8<=24)
 // console.log(ensinoMedio===ensinoMedio)
 
