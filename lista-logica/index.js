@@ -68,29 +68,33 @@
 // const anoNascimento = Number(prompt("Qual ano do seu nascimento?"))
 // const anoIdentidade = Number(prompt("Qual ano emitiu o RG?"))
 
-// console.log(anoAtual<=anoNascimento)
-//console.log(anoAtual>=anoNascimento)
-// console.log (anoNascimento>=anoAtual)
+// const idade = anoAtual - anoNascimento
+// const licenca = anoAtual - anoIdentidade
 
-// EXERCICIO 11 - refer
+// const idade20 = (idade <= 20) && (licenca >=5)
+// const idade50 = (idade > 20) && (idade <=50) && (licenca >=10)
+// const idade50 = (idade > 50) && (licenca >=15)
 
-// const bissextos400 = Number(prompt("todos anos multimos de 400?"))
-// const bissextos4 = Number(prompt("todos anos os multiplos de 4"))
-// const nãoBissextos = Number(prompt("todos os demais anos"))
+// EXERCICIO 11 
 
-// console.log(bissextos400 < 400 && bissextos4 >4 )
-// console.log (bissextos4 <4 && bissextos4 >100)
-// console.log(bissextos400===nãoBissextos)
+// const bissextos = Number(prompt(" Qual o ano que voce quer analisar"))
 
-// EXERCICIO 12 rever
+// console.log(bissextos % 4 == 0 && bissextos % 100 !=0 || bissextos % 400 == 0)
+
+
+// EXERCICIO 12 
 
 // const idade = prompt("Você tem mais de 18 anos?")
 // const ensinoMedio = prompt("Você tem o ensimo medio completo?")
 // const horario = prompt("Você possui disponibilidade exclusiva durante os horários do curso?")
 
-// console.log()
-// console.log(8<=24)
-// console.log(ensinoMedio===ensinoMedio)
+// idade = idade ==="true"
+// ensinoMedio = ensinoMedio ==="true"
+// horario = horario === "true"
+
+// const estudar = idade && ensinoMedio && horario
+// console.log =(estudar)
+
 
 
 
