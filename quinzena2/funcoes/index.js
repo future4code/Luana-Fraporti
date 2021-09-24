@@ -64,10 +64,20 @@
 // d) Faça uma função que recebe uma mensagem (string) como parâmetro e 
 // imprima o tamanho dessa mensagem, juntamente com uma versão dela em letras maiúscula
 
-function mensagem (){
-const Nome = prompt("Qual o seu nome")
-console.log ()
+// function mensagem (){
+// const Nome = prompt("Qual o seu nome")
+// console.log ()
 
+
+// }
+// mensagem ()
+
+
+filme = {
+
+    const nome ("azul"),
+    const ano  ("2021"),
+    const elenco = ["Bruna", "Igor", "Valentina"]
 
 }
-mensagem ()
+console.log (nome.azul, ano.2021)
