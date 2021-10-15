@@ -22,6 +22,7 @@ function retornaNumerosParesElevadosADois(array) {
 
 // EXERCÍCIO 03
 function retornaNumerosPares(array) {
+  let nPares = []
   for (let item of array) {
     if (item % 2 == 0) {
       nPares.push(item)
@@ -44,7 +45,7 @@ return numeroMaior
 
 // EXERCÍCIO 05
 function retornaQuantidadeElementos(array) {
-  const arrayNovo = array.lenght
+  const arrayNovo = array.length
   return arrayNovo
 }
 
@@ -94,9 +95,9 @@ function checaTriangulo(a, b, c) {
 
 // EXERCÍCIO 09
 function comparaDoisNumeros(num1, num2) {
-const maior 
-const menor
-const diferenca
+let maior 
+let menor
+let diferenca
 
 if (num1 > num2){
   maior = num1
@@ -125,22 +126,28 @@ let objeto =
 
 // EXERCÍCIO 10
 function segundoMaiorEMenor(array) {
-[2,4,5,9,3]
-[2,4,5,9,3]
+// [2,4,5,9,3]
+// [2,4,5,9,3]
 
-[0,1,2,3,4]
+// [0,1,2,3,4]
 
-[2,3,4,5,9]
+// [2,3,4,5,9]
+const arrayOrdenado = 
+array.sort((a, b) => a - b)
+const segundoMenor = arrayOrdenado[1]
+const segundoMaior = arrayOrdenado [arrayOrdenado.length -2]
 
-const novaArray = []
+return [segundoMaior,segundoMenor]
 
-let contador = 0
-for (itemComparado of array){
-if (item > itemComparado){
-  contador = contador +1 
-}
-}
-novaArray [contador]=item
+// const novaArray = []
+
+// let contador = 0
+// for (itemComparado of array){
+// if (item > itemComparado){
+//   contador = contador +1 
+// }
+// }
+// novaArray [contador]=item
 }
 
 // EXERCÍCIO 11
@@ -162,7 +169,6 @@ function filmeFavorito() {
 // EXERCÍCIO 13
 function imprimeChamada() {
   // "Venha assistir ao filme NOME_DO_FILME, de ANO, dirigido por DIRECAO e estrelado por ELENCO."
-}
 const filme = {
   nome: 'O Diabo Veste Prada',
   ano: 2006,
@@ -170,7 +176,7 @@ const filme = {
   atores: ['Meryl Streep', 'Anne Hathaway', 'Emily Blunt', 'Stanley Tucci']
 }
 return `Venha assistir ao filme ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores[0]}, ${filme.atores[1]}, ${filme.atores[2]}, ${filme.atores[3]}.`
-
+}
 
 // EXERCÍCIO 14
 function criaRetangulo(lado1, lado2) {
