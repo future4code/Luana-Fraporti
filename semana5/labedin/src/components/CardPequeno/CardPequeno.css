@@ -1,0 +1,32 @@
+.bigcard-containers {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    height: 70px;
+}
+
+.bigcard-containers > img {
+    width: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+    margin-left: 0%;
+}
+
+.bigcard-containers h4 {
+    margin-bottom: 0px;
+    flex-direction: center;
+    width: 470px;
+    letter-spacing: 0cm;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.bigcard-containers > div {
+    display: flex;
+    flex-direction: left;
+    justify-items: flex-start;
+    margin-left: 0%;
+    font-weight: bold;
+}
